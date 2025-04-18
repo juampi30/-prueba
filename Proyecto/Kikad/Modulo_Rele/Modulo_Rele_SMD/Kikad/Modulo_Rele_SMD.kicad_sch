@@ -1680,12 +1680,6 @@
 		)
 	)
 	(junction
-		(at 110.49 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c3088f7-2a34-40a4-bb21-b45f4ce1ee4b")
-	)
-	(junction
 		(at 139.7 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1735,6 +1729,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bd5ea4-d19c-477a-8914-56e975a931fb")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 162.56 63.5)
 		)
 		(stroke
@@ -1755,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 68.58) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ac6183-df81-4e14-87a3-48b1b3e10db3")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1762,6 +1776,16 @@
 			(type default)
 		)
 		(uuid "30423de6-667d-4f36-b68a-f8a4e50cd524")
+	)
+	(wire
+		(pts
+			(xy 106.68 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36531fa3-2675-4137-bec6-a2ea6ffdf4b6")
 	)
 	(wire
 		(pts
@@ -1815,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af404822-8788-49cb-8263-b4a1f2852172")
-	)
-	(wire
-		(pts
 			(xy 139.7 60.325) (xy 139.7 62.23)
 		)
 		(stroke
@@ -1835,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 78.74) (xy 110.49 88.9)
+			(xy 115.57 78.74) (xy 115.57 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1865,16 +1879,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 78.74) (xy 106.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3a467b-1ef4-49e4-939c-0ce052700f0b")
-	)
-	(wire
-		(pts
 			(xy 148.59 62.23) (xy 148.59 63.5)
 		)
 		(stroke
@@ -1885,17 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 106.68 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce68d054-98fb-45d5-8a9d-f0cfa76f8a2c")
-	)
-	(wire
-		(pts
-			(xy 110.49 78.74) (xy 116.84 78.74)
+			(xy 115.57 78.74) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +1899,7 @@
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
-		(at 88.9 77.47 0)
+		(at 88.9 67.31 0)
 		(size 5.08 2.54)
 		(stroke
 			(width 0)
@@ -1924,7 +1918,7 @@
 	)
 	(text_box "NC"
 		(exclude_from_sim no)
-		(at 181.61 62.23 0)
+		(at 181.61 67.31 0)
 		(size 3.81 2.54)
 		(stroke
 			(width 0)
@@ -1943,7 +1937,7 @@
 	)
 	(text_box "NO"
 		(exclude_from_sim no)
-		(at 181.61 67.31 0)
+		(at 181.61 62.23 0)
 		(size 3.81 2.54)
 		(stroke
 			(width 0)
@@ -1962,7 +1956,7 @@
 	)
 	(text_box "5V"
 		(exclude_from_sim no)
-		(at 90.17 67.31 0)
+		(at 90.17 77.47 0)
 		(size 3.81 2.54)
 		(stroke
 			(width 0)
@@ -2017,138 +2011,6 @@
 		)
 		(uuid "b9636740-ee9d-427f-9ef0-3e13a8687c38")
 	)
-	(global_label "NO"
-		(shape input)
-		(at 167.005 68.58 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "554b0049-25cf-49a4-b66d-9a3348960995")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.005 62.9338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Polo"
-		(shape input)
-		(at 167.64 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62faea97-c5ba-493d-987d-a1b3dd0a66a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 80.8784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NC"
-		(shape input)
-		(at 168.91 62.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4620f51-7eea-434d-8ab7-5fba0a5a3977")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 56.6443 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 107.95 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "145b1e53-3326-461e-9b20-26f55176f0f3")
-		(property "Reference" "#PWR04"
-			(at 107.95 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "993438c2-7dba-4885-b00f-b949421283da")
-		)
-		(instances
-			(project "Modulo_Rele"
-				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "EESTN5:PC817")
 		(at 124.46 76.2 0)
@@ -2175,7 +2037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -2252,7 +2114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 96.52 69.85 0)
 			(effects
 				(font
@@ -2322,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 138.43 78.74 0)
 			(effects
 				(font
@@ -2364,17 +2226,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 88.9 0)
+		(lib_id "power:+5V")
+		(at 109.22 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab9d965-68d8-455b-82a9-322f35586c5d")
-		(property "Reference" "#PWR02"
-			(at 110.49 95.25 0)
+		(uuid "75bb5e54-1e8b-4b4c-ad54-e7f58bc62efc")
+		(property "Reference" "#PWR05"
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,8 +2243,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 110.49 93.98 0)
+		(property "Value" "+5V"
+			(at 108.966 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 88.9 0)
+			(at 109.22 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2261,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 88.9 0)
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbed026-c638-4bdc-b687-78beddd6dc2e")
+		)
+		(instances
+			(project "Modulo_Rele"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab9d965-68d8-455b-82a9-322f35586c5d")
+		(property "Reference" "#PWR02"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 88.9 0)
+			(at 115.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 185.42 54.102 0)
 			(effects
 				(font
@@ -2591,7 +2518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -2627,6 +2554,71 @@
 			(project "Modulo_Rele"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9bcd3ee-edc6-41a9-8fd8-79d9e6d5e276")
+		(property "Reference" "#PWR04"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80cb52a4-fa48-4958-9e3d-99c8649d8d1b")
+		)
+		(instances
+			(project "Modulo_Rele"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2698,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e62674af-e2e5-4aa8-8ab1-4e4400f39ecd")
 		(property "Reference" "Q1"
 			(at 151.13 77.4699 0)
@@ -2726,7 +2717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 151.13 80.645 0)
 			(effects
 				(font
@@ -2801,7 +2792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 148.59 68.58 0)
 			(effects
 				(font
