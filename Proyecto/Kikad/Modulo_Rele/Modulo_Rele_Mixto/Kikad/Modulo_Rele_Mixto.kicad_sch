@@ -1695,7 +1695,7 @@
 		(at 139.954 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e09bf3d-82d5-4222-9246-9b5c21a89463")
+		(uuid "a03e27f8-1006-437e-82a6-589a8d58db51")
 	)
 	(junction
 		(at 148.59 73.66)
@@ -1725,16 +1725,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 78.74) (xy 139.954 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12bf812b-91a7-4af4-b659-8c95b2584e71")
-	)
-	(wire
-		(pts
 			(xy 158.75 62.23) (xy 168.91 62.23)
 		)
 		(stroke
@@ -1752,6 +1742,16 @@
 			(type default)
 		)
 		(uuid "18bd5ea4-d19c-477a-8914-56e975a931fb")
+	)
+	(wire
+		(pts
+			(xy 139.954 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2ff74f-01f3-46f9-a159-0fbb39642679")
 	)
 	(wire
 		(pts
@@ -1785,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 78.74) (xy 139.954 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28823bfe-47ce-417a-a480-ad3f2a7c8024")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1802,16 +1812,6 @@
 			(type default)
 		)
 		(uuid "36531fa3-2675-4137-bec6-a2ea6ffdf4b6")
-	)
-	(wire
-		(pts
-			(xy 139.954 78.74) (xy 140.97 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "460c8c5b-7590-4468-94b3-19d19a60190c")
 	)
 	(wire
 		(pts
@@ -2038,72 +2038,6 @@
 		(uuid "b9636740-ee9d-427f-9ef0-3e13a8687c38")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.954 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "138510ed-e663-41fb-a205-6054886ea34e")
-		(property "Reference" "#PWR06"
-			(at 139.954 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.954 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.954 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.954 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.954 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15047f23-7952-4e57-8e9d-d3260a6c284f")
-		)
-		(instances
-			(project "Modulo_Rele_THT"
-				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EESTN5:PC817")
 		(at 124.46 76.2 0)
 		(unit 1)
@@ -2129,7 +2063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_SO:SSO-4_6.7x5.1mm_P2.54mm_Clearance8mm"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -2172,9 +2106,77 @@
 			(uuid "f2cdbf55-4a37-4136-b5e6-a468ce0a663e")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:R")
+		(at 139.954 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ea00b1f-1445-4618-953f-42248fdce548")
+		(property "Reference" "R3"
+			(at 135.128 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.128 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32f9198f-3e13-4282-8b96-31af77670e68")
+		)
+		(pin "2"
+			(uuid "b102798f-4c2b-4796-85c0-e056d39692d3")
+		)
+		(instances
+			(project "Modulo_Rele_Mixto"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2244,7 @@
 			(uuid "9710ed15-1d68-4506-91ac-6ac482861c3a")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "J1")
 					(unit 1)
@@ -2276,7 +2278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -2309,7 +2311,7 @@
 			(uuid "3ebb6d8e-25e3-4ee5-ac2f-25a6fc1c7f14")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "R1")
 					(unit 1)
@@ -2374,7 +2376,7 @@
 			(uuid "7fbed026-c638-4bdc-b687-78beddd6dc2e")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR05")
 					(unit 1)
@@ -2440,7 +2442,7 @@
 			(uuid "9786c87a-44fb-41ed-9f6b-4601a41ea926")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR02")
 					(unit 1)
@@ -2511,7 +2513,7 @@
 			(uuid "408c98f8-20f1-437f-8344-8fb91e13ae01")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "J2")
 					(unit 1)
@@ -2577,7 +2579,7 @@
 			(uuid "e44d18e3-88ed-409a-bbd3-6cf602b13a88")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR03")
 					(unit 1)
@@ -2610,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
 			(at 114.3 73.66 0)
 			(effects
 				(font
@@ -2643,7 +2645,7 @@
 			(uuid "91a30d07-acab-42ad-8374-268720667444")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "R2")
 					(unit 1)
@@ -2708,7 +2710,7 @@
 			(uuid "80cb52a4-fa48-4958-9e3d-99c8649d8d1b")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR04")
 					(unit 1)
@@ -2774,7 +2776,7 @@
 			(uuid "f7b46504-ddd5-4aec-8850-81aea01a3203")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR01")
 					(unit 1)
@@ -2849,78 +2851,9 @@
 			(uuid "34c27ad6-2545-4c45-8641-1938b5803b6c")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EESTN5:R")
-		(at 139.954 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7955ed1-6de9-4460-9534-285466adcf5f")
-		(property "Reference" "R3"
-			(at 141.3153 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 141.3153 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 139.954 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.954 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.954 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30b06148-771a-4374-8d68-20b5fac9857a")
-		)
-		(pin "2"
-			(uuid "5ce258be-338d-4b1a-b461-07ad5b4734b3")
-		)
-		(instances
-			(project "Modulo_Rele_THT"
-				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2953,7 +2886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 148.59 68.58 0)
 			(effects
 				(font
@@ -2986,9 +2919,75 @@
 			(uuid "c8ef740c-ccd7-4dde-80f9-1bfc0e69d395")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.954 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed51d7fa-edce-4ddb-9b4d-972de0b58f69")
+		(property "Reference" "#PWR06"
+			(at 139.954 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.954 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18d63807-7f66-483c-bac7-b973abbf5213")
+		)
+		(instances
+			(project "Modulo_Rele_Mixto"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3062,7 @@
 			(uuid "b82b0a3b-e6ea-4a03-86d0-e5bef06b88b0")
 		)
 		(instances
-			(project "Modulo_Rele_THT"
+			(project "Modulo_Rele_Mixto"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "K1")
 					(unit 1)

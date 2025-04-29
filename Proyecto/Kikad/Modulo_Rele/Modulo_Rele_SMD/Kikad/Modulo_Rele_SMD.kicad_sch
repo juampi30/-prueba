@@ -1692,6 +1692,12 @@
 		(uuid "86bfcc86-f63e-4307-999a-5573ebb5c359")
 	)
 	(junction
+		(at 139.954 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03e27f8-1006-437e-82a6-589a8d58db51")
+	)
+	(junction
 		(at 148.59 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1739,6 +1745,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.954 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2ff74f-01f3-46f9-a159-0fbb39642679")
+	)
+	(wire
+		(pts
 			(xy 161.29 63.5) (xy 162.56 63.5)
 		)
 		(stroke
@@ -1769,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 78.74) (xy 139.954 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28823bfe-47ce-417a-a480-ad3f2a7c8024")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1789,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 135.89 78.74)
+			(xy 132.08 78.74) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2080,9 +2106,77 @@
 			(uuid "f2cdbf55-4a37-4136-b5e6-a468ce0a663e")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EESTN5:R")
+		(at 139.954 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ea00b1f-1445-4618-953f-42248fdce548")
+		(property "Reference" "R3"
+			(at 135.128 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.128 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EESTN5:R_0805"
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.954 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32f9198f-3e13-4282-8b96-31af77670e68")
+		)
+		(pin "2"
+			(uuid "b102798f-4c2b-4796-85c0-e056d39692d3")
+		)
+		(instances
+			(project "Modulo_Rele_SMD"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2244,7 @@
 			(uuid "9710ed15-1d68-4506-91ac-6ac482861c3a")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "J1")
 					(unit 1)
@@ -2160,7 +2254,7 @@
 	)
 	(symbol
 		(lib_id "EESTN5:R")
-		(at 138.43 78.74 90)
+		(at 135.89 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2169,7 +2263,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a80cce5-8845-49fa-a768-0ea7a3af79c0")
 		(property "Reference" "R1"
-			(at 138.43 73.66 90)
+			(at 135.89 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2271,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 138.43 76.2 90)
+			(at 135.89 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2279,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
-			(at 138.43 78.74 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2194,7 +2288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 78.74 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2202,7 +2296,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 78.74 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2311,7 @@
 			(uuid "3ebb6d8e-25e3-4ee5-ac2f-25a6fc1c7f14")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "R1")
 					(unit 1)
@@ -2282,7 +2376,7 @@
 			(uuid "7fbed026-c638-4bdc-b687-78beddd6dc2e")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR05")
 					(unit 1)
@@ -2348,7 +2442,7 @@
 			(uuid "9786c87a-44fb-41ed-9f6b-4601a41ea926")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR02")
 					(unit 1)
@@ -2419,7 +2513,7 @@
 			(uuid "408c98f8-20f1-437f-8344-8fb91e13ae01")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "J2")
 					(unit 1)
@@ -2485,7 +2579,7 @@
 			(uuid "e44d18e3-88ed-409a-bbd3-6cf602b13a88")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR03")
 					(unit 1)
@@ -2551,7 +2645,7 @@
 			(uuid "91a30d07-acab-42ad-8374-268720667444")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "R2")
 					(unit 1)
@@ -2616,7 +2710,7 @@
 			(uuid "80cb52a4-fa48-4958-9e3d-99c8649d8d1b")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR04")
 					(unit 1)
@@ -2682,7 +2776,7 @@
 			(uuid "f7b46504-ddd5-4aec-8850-81aea01a3203")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "#PWR01")
 					(unit 1)
@@ -2757,7 +2851,7 @@
 			(uuid "34c27ad6-2545-4c45-8641-1938b5803b6c")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "Q1")
 					(unit 1)
@@ -2825,9 +2919,75 @@
 			(uuid "c8ef740c-ccd7-4dde-80f9-1bfc0e69d395")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.954 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed51d7fa-edce-4ddb-9b4d-972de0b58f69")
+		(property "Reference" "#PWR06"
+			(at 139.954 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.954 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.954 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18d63807-7f66-483c-bac7-b973abbf5213")
+		)
+		(instances
+			(project "Modulo_Rele_SMD"
+				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2902,7 +3062,7 @@
 			(uuid "b82b0a3b-e6ea-4a03-86d0-e5bef06b88b0")
 		)
 		(instances
-			(project "Modulo_Rele"
+			(project "Modulo_Rele_SMD"
 				(path "/ea0a02fe-b616-46a0-b0cf-00b16e0dffe3"
 					(reference "K1")
 					(unit 1)
