@@ -1705,16 +1705,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 168.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b61575-188e-421a-8be0-d71a410ca9ce")
-	)
-	(wire
-		(pts
 			(xy 139.7 62.23) (xy 148.59 62.23)
 		)
 		(stroke
@@ -1752,6 +1742,16 @@
 			(type default)
 		)
 		(uuid "1c2ff74f-01f3-46f9-a159-0fbb39642679")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfc45d8-3d7b-45db-90cd-c1cb92cb49c1")
 	)
 	(wire
 		(pts
@@ -1795,6 +1795,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 71.12) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a814169-8dd9-4c7c-a9b5-2686f1e36eef")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1825,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 162.56 68.58)
+			(xy 162.56 63.5) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1835,13 +1845,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 168.91 68.58)
+			(xy 168.91 73.66) (xy 168.91 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75de4062-bd85-495c-89f8-adb50c63361e")
+		(uuid "7a7147d3-d8f8-40c0-8431-bb147ec53780")
 	)
 	(wire
 		(pts
@@ -1915,6 +1925,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 68.58) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8c9082-30fd-4fec-9e20-7adaf787f267")
+	)
+	(wire
+		(pts
 			(xy 115.57 78.74) (xy 116.84 78.74)
 		)
 		(stroke
@@ -1922,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "f20657a2-cc3f-4386-a5db-c4588734c128")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb8ba64-dbfb-487a-bb16-683589c89b35")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
@@ -2477,7 +2507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 185.42 54.102 0)
 			(effects
 				(font
@@ -2604,7 +2634,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 115.57 71.12 90)
 			(effects
 				(font

@@ -1705,13 +1705,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 168.91 73.66)
+			(xy 166.37 68.58) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03b61575-188e-421a-8be0-d71a410ca9ce")
+		(uuid "0055d1e7-110a-42ed-96d4-d372eca13021")
 	)
 	(wire
 		(pts
@@ -1785,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 73.66) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5c2ea1-9637-4ed6-8710-740345932f50")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1825,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 162.56 68.58)
+			(xy 162.56 63.5) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1835,13 +1845,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 168.91 68.58)
+			(xy 168.91 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75de4062-bd85-495c-89f8-adb50c63361e")
+		(uuid "6e996dbb-b93b-4053-8616-198a501d5ddc")
 	)
 	(wire
 		(pts
@@ -1862,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "9c18c718-a4cf-432f-b5c5-0b36e8d75b72")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e06526-a540-420d-b1b7-84e0ae706743")
 	)
 	(wire
 		(pts
@@ -1922,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "f20657a2-cc3f-4386-a5db-c4588734c128")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f882f856-5a45-432b-9367-a8a099a2a8de")
 	)
 	(text_box "GND"
 		(exclude_from_sim no)
@@ -2475,7 +2505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 185.42 54.102 0)
 			(effects
 				(font
@@ -2602,7 +2632,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 115.57 71.12 90)
 			(effects
 				(font
