@@ -1,2 +1,6 @@
-<em> # Modulo Rele Wifi </em>
-<img src="https://github.com/user-attachments/assets/8d5abb3f-b90f-4831-8c0c-dcbd2931a90d" width=50% height=50%>
+<img src="https://github.com/user-attachments/assets/6d7d13e5-1705-4e02-af65-080efc6ca283" width=50% height=50%>
+# Rele Wifi
+
+## Descripción
+
+El proyecto es una pagina web/aplicación que permita al usuario controlar sus dispositivos electrónicos desde su celular. Este consta de una placa la cual se le conectan los dispositivos, funcionando como un interruptor. De esta forma mediante wifi podes controlar tus aparatos desde la comodidad del celular.
