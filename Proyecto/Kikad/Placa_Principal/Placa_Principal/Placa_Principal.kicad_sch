@@ -2584,7 +2584,7 @@
 		)
 		(uuid "fea264b6-aefb-4f23-9d93-2dcc0b5d8438")
 	)
-	(global_label "GPIO_12"
+	(global_label "GPIO_17"
 		(shape input)
 		(at 240.03 97.79 180)
 		(fields_autoplaced yes)
@@ -2606,7 +2606,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_27"
+	(global_label "GPIO_33"
 		(shape input)
 		(at 240.03 115.57 180)
 		(fields_autoplaced yes)
@@ -2628,95 +2628,73 @@
 			)
 		)
 	)
-	(global_label "GPIO_27"
+	(global_label "GPIO_19"
 		(shape input)
-		(at 191.77 101.6 0)
+		(at 151.13 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1c396eef-6797-45e0-be9d-bc194b1869b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6171 101.6 0)
+			(at 140.2829 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_25"
+	(global_label "GPIO_23"
 		(shape input)
-		(at 191.77 106.68 0)
+		(at 151.13 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1c8217ca-6e7c-4ec1-a603-e593bdd6841e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6171 106.68 0)
+			(at 140.2829 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_13"
+	(global_label "GPIO_17"
 		(shape input)
-		(at 191.77 91.44 0)
+		(at 151.13 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2d94e4e8-957e-4cef-82b3-d8e3e376b710")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6171 91.44 0)
+			(at 140.2829 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_33"
-		(shape input)
-		(at 191.77 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3acdbb8b-48af-46ac-a14d-3e17f0b8fc37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6171 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_21"
+	(global_label "GPIO_22"
 		(shape input)
 		(at 167.64 148.59 90)
 		(fields_autoplaced yes)
@@ -2738,7 +2716,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_33"
+	(global_label "GPIO_19"
 		(shape input)
 		(at 172.72 148.59 90)
 		(fields_autoplaced yes)
@@ -2760,29 +2738,29 @@
 			)
 		)
 	)
-	(global_label "GPIO_12"
+	(global_label "GPIO_18"
 		(shape input)
-		(at 191.77 96.52 0)
+		(at 151.13 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "79d20864-f08d-47ef-bcb0-9fbdc936f78a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6171 96.52 0)
+			(at 140.2829 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_25"
+	(global_label "GPIO_32"
 		(shape input)
 		(at 240.03 133.35 180)
 		(fields_autoplaced yes)
@@ -2804,7 +2782,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_22"
+	(global_label "GPIO_23"
 		(shape input)
 		(at 165.1 148.59 90)
 		(fields_autoplaced yes)
@@ -2826,7 +2804,29 @@
 			)
 		)
 	)
-	(global_label "GPIO_13"
+	(global_label "GPIO_33"
+		(shape input)
+		(at 191.77 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afbd6f82-cb7d-4fca-a2a0-abf21dfe1328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.6171 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_16"
 		(shape input)
 		(at 240.03 78.74 180)
 		(fields_autoplaced yes)
@@ -2914,7 +2914,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_32"
+	(global_label "GPIO_18"
 		(shape input)
 		(at 175.26 148.59 90)
 		(fields_autoplaced yes)
@@ -2958,7 +2958,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_16"
+	(global_label "GPIO_21"
 		(shape input)
 		(at 170.18 148.59 90)
 		(fields_autoplaced yes)
